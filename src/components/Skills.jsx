@@ -58,7 +58,7 @@ const SkillsData = [
 
 function Skills() {
   return (
-    <div className='py-10'>
+    <div >
         <div className='container'>
             {/* Header section */}
             <div className='text-center mb-20 max-w-[400px] mx-auto'>
