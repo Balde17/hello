@@ -1,7 +1,59 @@
-
+import goImg from "../assets/go.png"
+import jsImg from "../assets/js.png"
+import cImg from "../assets/c.png"
+import rustImg from "../assets/rust.png"
+import nodeImg from "../assets/node.png"
+import expressImg from "../assets/express-js.png"
+import reactImg from "../assets/react.png"
+import ginImg from "../assets/gin.png"
+import fiberImg from "../assets/fiber.png"
 
 const SkillsData = [
-    {},
+    {
+        id : 1,
+        name : "Golang",
+        img : goImg,
+    },
+    {
+        id : 2,
+        name : "JavaScript",
+        img : jsImg,   
+    },
+    {
+        id : 3,
+        name : "C",
+        img : cImg,   
+    },
+    {
+        id : 4,
+        name : "Rust",
+        img : rustImg,   
+    },
+    {
+        id : 5,
+        name : "Node Js",
+        img : nodeImg,   
+    },
+    {
+        id : 6,
+        name : "Express Js",
+        img : expressImg,   
+    },
+    {
+        id : 7,
+        name : "React",
+        img : reactImg,   
+    },
+    {
+        id : 9,
+        name : "Gin",
+        img : ginImg,   
+    },
+    {
+        id : 10,
+        name : "Fiber",
+        img : fiberImg,   
+    },
 ];
 
 function Skills() {
@@ -19,35 +71,28 @@ function Skills() {
                 className='text-3xl font-bold'
                 >Skills</h1>
             </div>
-            {/* card section */}
+            {/* Images section */}
             <div>
-                <div className="grid grid-cols-1 sm:grid-cols-2
-                md:grid-cols-3 gap-14 md:gap-5 place-items-center ">
+                <div className="grid grid-cols-2 sm:grid-cols-4
+                md:grid-cols-4 gap-14 md:gap-5 place-items-center ">
                     {
-                        SkillsData.map(({id, img, name, langages, description})=>{
+                        SkillsData.map(({id, name, img})=>{
                             return (
                                 <div key={id}
-                                data-aos="zoom-in"
-                                data-aos-duration="300"
-                                data-aos-onse="true"
-                                className="dark:bg-gray-800 p-2 hover:bg-primary hover:text-white dark:text-white gap-2">
+                                    data-aos="zoom-in"
+                                    data-aos-duration="300"
+                                    data-aos-onse="true"
+                                    className="dark:bg-gray-800 p-2 hover:text-white dark:text-white gap-2">
                                     <div className="h-[100px] w-full mb-8">
                                         <img 
                                             src={img}
                                             alt=""
-                                            className="max-w-[200px] mx-auto block
+                                            className="max-w-[150px] mx-auto block hover:scale-y-50
                                             transform  
                                             duration-300"
                                             />                                    
-
                                     </div>
-                                    
-                                    <div className="p-4">
-                                        <h1 className="text-xl font-bold text-center">{name}</h1>
-                                        <p>{langages}</p>
-                                        <p className="text-gray-500 text-sm line-clamp-2 
-                                        group-hover:text-white duration-300">{description}</p>
-                                    </div>
+                                    <p className="font-bold text-center hidden hover:flex">{name}</p>
                                 </div>
                             )
                         })

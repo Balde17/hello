@@ -62,7 +62,7 @@ function Projects() {
                 <p className='text-sm bg-clip-text
                 text-transparent bg-gradient-to-r 
                 from-primary to-secondary'>
-                    My Projects
+                    Projects
                 </p>
                 <h1
                 className='text-3xl font-bold'
@@ -88,7 +88,6 @@ function Projects() {
                                             transform  
                                             duration-300"
                                             />                                    
-
                                     </div>
                                     
                                     <div className="p-4">
