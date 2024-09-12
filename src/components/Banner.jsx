@@ -12,8 +12,7 @@ const bgImage = {
 
 function Banner() {
   return (
-    <>
-      <div 
+      <div id="banner"
         style={bgImage}
         className='min-h-[550px] sm:min-h-[600px]
         bg-gray-100 dark:bg-gray-950 dark:text-white
@@ -56,7 +55,6 @@ function Banner() {
           </div>
         </div>
       </div>
-    </>
   )
 }
 

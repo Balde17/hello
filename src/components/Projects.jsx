@@ -55,7 +55,7 @@ const ProjectsData = [
 
 function Projects() {
   return (
-    <div className='py-10'>
+    <div className='py-10' id="projects">
         <div className='container'>
             {/* Header section */}
             <div className='text-center mb-20 max-w-[400px] mx-auto'>

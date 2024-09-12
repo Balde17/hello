@@ -1,6 +1,7 @@
  import React from 'react'
  import {FaCartShopping} from "react-icons/fa6";
  import { DarkMode } from './DarkMode';
+ import { Link } from 'react-scroll'; 
  
  const Navbar = () => {
    return (
@@ -20,22 +21,22 @@
             </div>
             <ul className='hidden sm:flex gap-4'>
               <li>
-                <a href="#" className='inline-block p-4 hover:text-primary transition-all duration-200'>Home</a>
+                <Link to="banner" className='inline-block p-4 hover:text-primary transition-all duration-200' smooth={true} duration={500}>Home</Link>
               </li>
               <li>
-                <a href="#" className='inline-block p-4 hover:text-primary transition-all duration-200'>Skills</a>
+                <Link to="skills" className='inline-block p-4 hover:text-primary transition-all duration-200' smooth={true} duration={500}>Skills</Link>
               </li>
               <li>
-                <a href="#" className='inline-block p-4 hover:text-primary transition-all duration-200'>Services</a>
+                <Link to="projects" className='inline-block p-4 hover:text-primary transition-all duration-200' smooth={true} duration={500}>Projects</Link>
               </li>
               <li>
-                <a href="#" className='inline-block p-4 hover:text-primary transition-all duration-200'>Home</a>
+                <Link to="services" className='inline-block p-4 hover:text-primary transition-all duration-200' smooth={true} duration={500}>Services</Link>
               </li>
               <li>
-                <a href="#" className='inline-block p-4 hover:text-primary transition-all duration-200'>Contact</a>
+                <Link to="contact" className='inline-block p-4 hover:text-primary transition-all duration-200' smooth={true} duration={500}>Contact</Link>
               </li>
               <li>
-                <a href="#" className='inline-block p-4 hover:text-primary transition-all duration-200'>About</a>
+                <Link to="about" className='inline-block p-4 hover:text-primary transition-all duration-200' smooth={true} duration={500}>About</Link>                
               </li>
             </ul>
             

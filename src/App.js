@@ -2,10 +2,12 @@ import React, { useEffect } from 'react'
 import './App.css';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
-import Projects from './components/Projects';
+import About from './components/About';
 import Skills from './components/Skills';
 import Cadres from './components/Cadres';
-import About from './components/About';
+import Projects from './components/Projects';
+import Services from './components/Services';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import AOS from "aos";
@@ -31,6 +33,8 @@ function App() {
       <Cadres/>
       <hr className='w-2/3 m-auto my-2'/>
       <Projects/>
+      <Services/>
+      <Contact/>
       <Footer />
     </div>
   );

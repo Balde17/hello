@@ -2,7 +2,7 @@
 
 const About = () => {
     return(
-        <div className='py-10'>
+        <div className='py-10' id="about">
             <div className='container'>
                 <div className='text-center mb-10 max-w-[400px] mx-auto'>
                     <p className='text-sm bg-clip-text

@@ -1,5 +1,5 @@
 
-function Contact() {
+function Services() {
   return (
     <div className='py-10' id="contact">
         
@@ -7,4 +7,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Services
