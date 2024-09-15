@@ -33,8 +33,8 @@ function App() {
       <Cadres/>
       <hr className='w-2/3 m-auto my-2'/>
       <Projects/>
-      <Services/>
       <Contact/>
+      <Services/>
       <Footer />
     </div>
   );
