@@ -87,9 +87,9 @@ function Skills() {
                                         <img 
                                             src={img}
                                             alt=""
-                                            className="max-w-[150px] mx-auto block hover:scale-y-50
+                                            className="w-[100px] mx-auto block hover:rotate-45 
                                             transform  
-                                            duration-300"
+                                            duration-500"
                                             />                                    
                                     </div>
                                     <p className="font-bold text-center hidden hover:flex">{name}</p>

@@ -1,8 +1,11 @@
+const servicesData = [
+
+]
 
 function Services() {
   return (
     <div className='py-10' id="contact">
-        <div>
+        <div className="">
             <div className='text-center mb-20 max-w-[400px] mx-auto'>
                 <p className='text-sm bg-clip-text
                 text-transparent bg-gradient-to-r 
@@ -14,10 +17,17 @@ function Services() {
                 >Services</h1>
             </div>
             <div className="px-10">
-              <div>
-                <p>Conseil en technologie et service informatique</p>
-                <p>Api Rest development</p>
-                <p>Front development</p>
+              <div className=" flex justify-between sm:px-10 lg:px-[400px] font-bold ">
+                <ul className="list-disc">
+                  <li>RESTful or GraphQL APIs</li>
+                  <li>SEO Optimization</li>
+                  <li>UI/UX Design</li>
+                </ul>
+                <ul className="list-disc">
+                  <li>Website Maintenance</li>
+                  <li>Technical Consulting</li>
+                  <li>Third-Party Tool Integration</li>
+                </ul>
               </div>
             </div>
         </div>
