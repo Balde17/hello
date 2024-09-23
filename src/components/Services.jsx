@@ -4,7 +4,7 @@ const servicesData = [
 
 function Services() {
   return (
-    <div className='py-10' id="contact">
+    <div className='py-10' id="services">
         <div className="">
             <div className='text-center mb-20 max-w-[400px] mx-auto'>
                 <p className='text-sm bg-clip-text

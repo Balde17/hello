@@ -82,7 +82,7 @@ function Skills() {
                                     data-aos="zoom-in"
                                     data-aos-duration="300"
                                     data-aos-onse="true"
-                                    className="dark:bg-gray-800 p-2 hover:text-white dark:text-white gap-2">
+                                    className="dark:bg-gray-800 p-2 hover:text-white dark:text-white gap-2 rounded-xl">
                                     <div className="h-[100px] w-full mb-8">
                                         <img 
                                             src={img}
